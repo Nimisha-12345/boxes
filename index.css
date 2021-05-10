@@ -1,0 +1,46 @@
+body {
+  display: grid;
+  align-content: center;
+  height: 100vh;
+  justify-content: center;
+}
+.set {
+  height: 100px;
+
+  width: 200px;
+  position: relative;
+}
+.box1 {
+  height: 50px;
+  width: 50%;
+  border: 1px solid #fd3634;
+}
+.box2 {
+  height: 50%;
+  width: 48%;
+  top: 0;
+  right: 0;
+  border: 1px solid #f6f741;
+  position: absolute;
+}
+.box3 {
+  height: 46%;
+  width: 50%;
+  border: 1px solid #88c388;
+}
+.box4 {
+  height: 47%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48%;
+  border: 1px solid #f94611;
+}
+.box5 {
+  top: 25px;
+  width: 40%;
+  border: 1px solid #b14645;
+  height: 50%;
+  left: 58px;
+  position: absolute;
+}
